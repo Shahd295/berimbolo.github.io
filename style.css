@@ -1,0 +1,76 @@
+.welcome{
+    margin-bottom: 60px;
+}
+
+.img{
+    margin-bottom: 60px;
+}
+.div1{
+    margin-bottom: 60px;
+
+}
+.div2{
+    margin-bottom: 60px;
+
+}
+.div3{
+    display:flex;
+}
+.containerx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .divx,.divy {
+    width:max-content;
+    height:max-content;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .containerz{
+    margin-bottom: 40px;
+  }
+.btn-w{
+    width: 250px;
+}
+
+.contact{
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Example CSS */
+.welcome {
+    padding: 2rem 0;
+}
+
+.img img {
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+}
+
+.containerx {
+    margin-top: 1rem;
+}
+
+.containerx .divx,
+.containerx .divy {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .card-body {
+        text-align: center;
+    }
+}
+
